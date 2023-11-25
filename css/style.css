@@ -191,7 +191,7 @@ section {
     display: flex;
     margin-top: 50px;
     text-align: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 }
 
 /* Individual Service Card */
