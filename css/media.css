@@ -41,7 +41,6 @@
         width: 50%;
         left: 0;
         top: 0;
-        height: 2px;
     }
 
     /* 
@@ -143,7 +142,7 @@
     }
 
     .header .navbar#open .header-burger .header-burger-items:nth-child(3) {
-        transform: translate(-1px, -7px) rotate(45deg);
+        transform: translate(-1px, -7.5px) rotate(45deg);
     }
 
     .header .header-text .header-title {

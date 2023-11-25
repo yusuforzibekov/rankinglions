@@ -10,7 +10,7 @@
 
 section {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /* Styling the header section */
@@ -147,7 +147,7 @@ section {
 }
 
 /* Services Text */
-.services .container .row .col-xl-12.services-text {
+.container .row .col-xl-12.services-text {
     width: 100%;
     height: 100%;
     display: flex;
@@ -157,7 +157,7 @@ section {
 }
 
 /* Services Title */
-.services .container .row .col-xl-12.services-text .services-title {
+.container .row .col-xl-12.services-text .services-title {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 1px;
@@ -167,7 +167,7 @@ section {
 }
 
 /* Line separator */
-.services .container .row .col-xl-12.services-text .line {
+.container .row .col-xl-12.services-text .line {
     width: 60px;
     height: 2px;
     background: #555a5a;
@@ -175,7 +175,7 @@ section {
 }
 
 /* Services Paragraph */
-.services .container .row .col-xl-12.services-text .services-paragraph {
+.container .row .col-xl-12.services-text .services-paragraph {
     font-family: 'Times New Roman', Times, serif;
     color: #555a5a;
     margin-bottom: 50px;
@@ -191,11 +191,10 @@ section {
     display: flex;
     margin-top: 50px;
     text-align: center;
-    flex-wrap: wrap; 
 }
 
 /* Individual Service Card */
-.services .container .row .cards div {
+.services .container .row .cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -203,7 +202,7 @@ section {
 }
 
 /* Icon in Service Card */
-.services .container .row .cards div .fa {
+.services .container .row .cards .fa {
     width: 100px;
     height: 100px;
     font-size: 60px;
@@ -219,14 +218,14 @@ section {
 }
 
 /* Hover effect on Icon in Service Card */
-.services .container .row .cards div .fa:hover {
+.services .container .row .cards .fa:hover {
     border: 1px solid #a51818;
     background: #a51818;
     color: #fff;
 }
 
 /* Title in Service Card */
-.services .container .row .cards div .card-title {
+.services .container .row .cards .card-title {
     font-size: 18px;
     font-weight: 700;
     color: #555a5a;
@@ -234,7 +233,11 @@ section {
 }
 
 /* Paragraph in Service Card */
-.services .container .row .cards div .card-paragraph {
+.services .container .row .cards .card-paragraph {
     font-size: 15px;
     color: #555a5a;
+}
+
+.about {
+    background: #f8f8f8;
 }
